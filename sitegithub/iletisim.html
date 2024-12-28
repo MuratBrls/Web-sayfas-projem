@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1c1c1c;
+            color: white;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            background-color: #292929;
+            padding: 15px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            margin: 0 15px;
+            background-color: rgba(255, 87, 34, 0.85);
+            border-radius: 6px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .menu a:hover {
+            background-color: rgba(255, 87, 34, 1);
+            transform: scale(1.1);
+        }
+
+        .content {
+            margin-top: 80px;
+            padding: 20px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .contact-info h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .contact-info p {
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .contact-info a {
+            color: #ff5722;
+            text-decoration: none;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="menu">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="calismalarimiz.html">Çalışmalarımız</a>
+        <a href="iletisim.html">İletişim</a>
+    </div>
+
+    <div class="content">
+        <div class="contact-info">
+            <h2>İletişim Bilgilerim</h2>
+            <p><strong>Telefon:</strong> <a href="tel:+905395626720">0539 562 6720</a></p>
+            <p><strong>E-posta:</strong> <a href="mailto:murat.barlas456@gmail.com">murat.barlas456@gmail.com</a></p>
+            <p><strong>Adres:</strong><span style="color: #ff5722;"> Ankara Polatlı Gazi Mah Abdullah Parla Caddesi No:4 Daire:1</p>
+            
+            <p><strong>Instagram:</strong> <span style="color: #ff5722;">Muratbarlss</span></p>
+        </div>
+    </div>
+
+</body>
+</html>
